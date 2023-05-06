@@ -18,9 +18,15 @@ This is a simple web app that demonstrates using WebAssembly with C++. Created t
 
 ## Getting Started
 
+### Option 1: Download Files
+
 - Clone the repository or download the source files.
 
 - To run the web app, you need to compile the C++ code to WebAssembly using the Emscripten compiler. You can follow the instructions on their [official website](https://emscripten.org/docs/getting_started/downloads.html) to download and install the Emscripten SDK.
+
+### Option 2: View Hosted Page
+
+- Alternatively, you can view the webpage as it is hosted on GitHub pages with this link: https://georgemalerbo.github.io/fibonacci-webassembly-demo/
 
 ### Compiling C++ to WebAssembly
 
