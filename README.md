@@ -30,7 +30,7 @@ This is a simple web app that demonstrates using WebAssembly with C++. Created t
 
 `emcc -s WASM_BIGINT=1 -s EXPORTED_FUNCTIONS="["_fibonacci"]" -s "EXPORTED_RUNTIME_METHODS=["ccall"]" fibonacci.cpp -o fibonacci_wasm.js`
 
-- After running the Emscripten command, two files will should generated: `fibonacci_wasm.js` and `fibonacci_wasm.wasm`
+- After running the Emscripten command, two files should be generated: `fibonacci_wasm.js` and `fibonacci_wasm.wasm`
 
 - These files are necessary to run the web app and to call the WebAssembly function from JavaScript.
 
